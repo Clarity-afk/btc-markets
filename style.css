@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* базовые стили */
+
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #18181b;
+}
+
+.btn {
+    padding: 10px 18px;
+    border-radius: 4px;
+    border: 2px solid #18181b;
+}
+
+.btn-active{
+    padding: 10px 18px;
+    background-color: #4CFDC7;
+    border-radius: 4px;
+}
+
+.container{
+    max-width: 1136px;
+    margin: 0 auto;
+}
+
+/* header styles */
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.header__list{
+    display: flex;
+    gap: 32px;
+}
+
+.header__nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header li {
+    list-style: none;
+}
