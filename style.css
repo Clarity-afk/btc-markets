@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* header styles */
 
-.container{
+.header .container{
     padding-top: 40px;
 }
 
@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6{
     gap: 32px;
 }
 
+.header__item img{
+    cursor: pointer;
+}
+
 .header__nav{
     display: flex;
     gap: 7px;
@@ -76,6 +80,8 @@ h1, h2, h3, h4, h5, h6{
 .header__login {
     margin-left: 25px;
 }
+
+
 
 /* welcome section */
 
@@ -140,4 +146,54 @@ h1, h2, h3, h4, h5, h6{
 
 .welcome__photo{
     
+}
+
+/* causes styles */
+
+.causes .container{
+    
+}
+
+.causes__title{
+    font-size: 46px;
+    display: flex; 
+    justify-content: center;
+}
+
+.causes__items {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.causes__item, .item__text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.causes__item img{
+    margin-bottom: 30px;
+    display: block;
+}
+
+.item__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.item__title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.item__subtitle{
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin-top: 20px;
 }
